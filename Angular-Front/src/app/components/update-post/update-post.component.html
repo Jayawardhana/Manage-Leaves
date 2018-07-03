@@ -1,14 +1,14 @@
 <div class="all">
-<div class = "container cl-lg-4">
+<div class = "container">
 	<h2 class = "page-header"> Update Posts</h2>
-	<form (submit) = "updateData()">
+	<form (submit) = "updateData()" class="col-md-4">
 		<div class = "form-group">
 			<label>About</label>
 			<input type="text" [(ngModel)] = "about" name ="about" class = "form-control" required>
 		</div>
 		<div class = "form-group">
 			<label>Date</label>
-			<input type="text" [(ngModel)] = "date" name ="date" class = "form-control" required>
+			<input type="date" [(ngModel)] = "date" name ="date" class = "form-control" required>
 		</div>
 		<div class = "form-group">
 			<label>Content</label><br>
@@ -19,7 +19,7 @@
 			<input type="submit" class ="btn btn-success" value = "Update">
         </div>
         <div class = "form-group">
-			<input type="button" (click) = "redirectBack()" value= "back" class ="btn btn-warning">
+			<input type="button" (click) = "redirectBack()" value= "back" class ="btn btn-warning" onclick='location.reload();'>
         </div>
 	</form>
 </div>

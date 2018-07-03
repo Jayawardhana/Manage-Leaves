@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ebea38-e34c-455c-b217-8b7b22bfbf4e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/add-post/add-post.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/profile/profile.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Angular-Front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Angular-Front/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/post.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,8 +21,26 @@
       <file leaf-file-name="update-post.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="177">
+              <caret line="21" column="121" selection-start-line="21" selection-start-column="121" selection-end-line="21" selection-end-column="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leave-history.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage-leaves.component.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create-pdf.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create-pdf.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
@@ -92,29 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report-genaration.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="update-post.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update-user.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -171,7 +133,6 @@
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/control-dates/control-dates.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.html" />
-        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-admin/manage-admin.component.css" />
@@ -179,18 +140,19 @@
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.html" />
-        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/request-leaves/request-leaves.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/report-genaration/report-genaration.component.html" />
-        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html" />
-        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-user/update-user.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/view-user/view-user.component.html" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.css" />
         <option value="$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css" />
+        <option value="$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css" />
       </list>
     </option>
   </component>
@@ -212,7 +174,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="294" />
     <option name="y" value="113" />
     <option name="width" value="896" />
@@ -256,6 +218,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manage-Leaves" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Manage-Leaves" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular-Front" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-leaves" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Manage-Leaves" type="b2602c69:ProjectViewProjectNode" />
@@ -308,18 +279,19 @@
       <updated>1530585160219</updated>
       <workItem from="1530585178959" duration="18111000" />
       <workItem from="1530622452358" duration="3452000" />
-      <workItem from="1530634099859" duration="8453000" />
+      <workItem from="1530634099859" duration="9931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30016000" />
+    <option name="totallyTimeSpent" value="31494000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="113" width="896" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.3715909" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.23938507" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -327,7 +299,7 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.36031747" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.35524258" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/manage-users/manage-users.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -636,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/login/login.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -668,13 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -713,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/create-pdf/create-pdf.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -731,6 +675,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/update-post/update-post.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="21" column="121" selection-start-line="21" selection-start-column="121" selection-end-line="21" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/leave-history/leave-history.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular-Front/src/app/components/manage-leaves/manage-leaves.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
