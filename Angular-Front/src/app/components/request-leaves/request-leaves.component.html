@@ -1,22 +1,91 @@
-<div class = "container">
-	<h2 class = "page-header"> Request Leaves</h2>
-	<form (submit) = "request()">
-		
-		<div class = "form-group">
-			<label>Date</label>
-			<input type="text" bsDaterangepicker [(ngModel)] = "date" name ="date" class = "form-control" required>
-		</div>
-		<div class = "form-group">
-			<label>Reason</label>
-			<input type="text" [(ngModel)] = "reason" name ="reason" class = "form-control" required>
-		</div>
-		<div class = "form-group">
-			<label>More Text</label><br>
-			<textarea [(ngModel)]='describe' name ="describe" rows="6" cols="100"></textarea>
-		</div>
-		<input type="submit" class ="btn btn-success" value = "Submit">
-	</form>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<div class="all">
+<div class="container">
+  <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+    <div class="panel panel-info" >
+
+      <div style="padding-top:30px" class="panel-body" >
+
+        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+        <form (submit) = "request()" id="requestform" class="form-horizontal" role="form">
+
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input type="date" [(ngModel)] = "date" name ="date" class = "form-control" required>
+          </div>
+
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="login-username" type="text" [(ngModel)] = "reason" name ="reason" class="form-control"  value="" placeholder="Reason">
+          </div>
+
+
+          <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <textarea [(ngModel)]='describe' name ="describe" rows="4" cols="64" placeholder="More Details about Leave"></textarea>
+          </div>
+
+          <div style="margin-top:10px" class="form-group">
+            <!-- Button -->
+            <div class="col-sm-12 controls">
+              <input type="submit" class ="btn btn-success" value = "Submit">
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
 </div>
+<!--<div class = "container">-->
+  <!--<h2 class = "page-header"> Request Leaves</h2>-->
+  <!--<form (submit) = "request()">-->
+
+
+
+    <!--<div class="container">-->
+      <!--<div class="col-md-8">-->
+        <!--<div class = "form-group">-->
+          <!--<label>Subject</label>-->
+          <!--<input type="text" [(ngModel)] = "reason" name ="reason" class = "form-control" required>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="col-md-4"></div>-->
+    <!--</div>-->
+
+    <!--<div class="container">-->
+      <!--<div class="col-md-8">-->
+        <!--<div class = "form-group">-->
+          <!--<label>Discription (if any)</label><br>-->
+          <!--<textarea [(ngModel)]='describe' name ="describe" rows="6" cols="98"></textarea>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="col-md-4"></div>-->
+    <!--</div>-->
+
+    <!--<div class="container">-->
+      <!--<div class="col-md-8">-->
+        <!--<div class = "form-group">-->
+          <!--<label>Date</label>-->
+          <!--<input type="date" [(ngModel)] = "date" name ="date" class = "form-control" required>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="col-md-4"></div>-->
+    <!--</div>-->
+
+    <!--<div class="container">-->
+      <!--<div class="col-md-8">-->
+        <!--<input type="submit" class ="btn btn-primary" value = "Submit">-->
+      <!--</div>-->
+      <!--<div class="col-md-4"></div>-->
+    <!--</div>-->
+  <!--</form>-->
+<!--</div>-->
 <hr>
 <div class = "container">
 	<table>
@@ -26,13 +95,17 @@
 			   <th>Describe</th>
 			   <th>Delete</th>
 			</tr>
-			  
+
 			<tr *ngFor = "let request of requests">
 			   <td>{{request.date}}</td>
 			   <td>{{request.reason}}</td>
 			   <td>{{request.describe}}</td>
 			   <th><input type="button" (click) = "deleteRequest(request._id)" value= "Delete" class ="btn btn-danger"></th>
 			</tr>
-			
+
 	</table>
+  <br>
+  <br>
+</div>
+
 </div>

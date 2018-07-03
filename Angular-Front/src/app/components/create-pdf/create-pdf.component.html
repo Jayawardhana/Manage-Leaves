@@ -1,3 +1,4 @@
+<div class="all">
 <div class = "container" id="content" #content>
 	<div *ngIf="user">
 		<h1>Leaves of {{user.full_name}}</h1>
@@ -6,7 +7,7 @@
 		<h3>Contact : {{user.phone}}</h3>
 		<h3>Email : {{user.email}}</h3>
 		<br><br>
-		
+
 		<table>
 			<tr>
 			   <th>Date</th>
@@ -14,14 +15,14 @@
 			   <th>Describe</th>
 			   <th>State</th>
 			</tr>
-			  
+
 			<tr *ngFor = "let hry of history">
 			   <td>{{hry.date}}</td>
 			   <td>{{hry.reason}}</td>
 			   <td>{{hry.describe}}</td>
 			   <th>{{hry.state}}</th>
 			</tr>
-			
+
 		</table>
 		<br><br>
 
@@ -31,9 +32,9 @@
 	    <div class = "col-md-3">
 				<input type="button" (click) = "downloadPFD()" value= "Download PDF" class ="btn btn-success">
 	    </div>
-	</div>    
+	</div>
 </div>
-
+</div>
 
 
 

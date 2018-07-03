@@ -1,0 +1,16 @@
+/*table, th, td {*/
+  /*border: 1px solid black;*/
+/*}*/
+/*th, td {*/
+  /*padding: 15px;*/
+  /*text-align: left;*/
+/*}*/
+
+.all {
+  background-image: url(../../../assets/image/blue.jpg);
+  /*padding: 20px;*/
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+
+}

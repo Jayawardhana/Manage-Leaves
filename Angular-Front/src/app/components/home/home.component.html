@@ -1,38 +1,102 @@
+<div class="all">
 <div class = "container">
-	<div *ngFor = "let post of posts">
-	  <div class="row" style="background-color: #cce0ff;height: 400px;">
-	   <div class = "row">
-	   	  <div class = "col-md-12">
-			<h1>{{post.about}}</h1>
-		  </div>  
-	   </div>	
-       <div class = "row">
-		  <div class = "col-md-1">
-			<h3>Post</h3>
-		  </div>
-		  <div class = "col-md-1">
-			<h3>by</h3>
-		  </div>
-		  <div class = "col-md-1">
-			<h3>{{post.name}}</h3>
-		  </div>
-		  <div class = "col-md-1">
-			<h3>({{post.post}})</h3>
-		  </div>
-		  <div class = "col-md-1">
-			<h3>On</h3>
-		  </div>
-		  <div class = "col-md-4">
-			<h3>{{post.date}}</h3>
-		  </div>	
-	   </div>
-	   <br><br>
-	   <div class = "row">
-	   	  <div class = "col-md-12">
-	   	    <p>{{post.content}}</p>
-	   	  </div>  
-	   </div>
-	  </div>
-	  <br><br>
-   </div>	
+
+  <!--under the nav bar-->
+  <div class="container">
+
+    <!--1 st class-->
+    <div class="under-nav-bar-module-1">
+      <!--<div class="col-md-3" >-->
+        <!--<img src="assets/image/UCSC-Logo.jpg" height="100px" width="100px">-->
+      <!--</div>-->
+
+      <div class="col-md-12">
+        <h2 class="display-3 text-center">University of Colombo School of Computing</h2>
+        <h2 class="display-3 text-center">Academic Office e-leave Official Website</h2>
+      </div>
+    </div>
+
+  </div>
+  <br><br>
+
+  <div class="container">
+
+    <!--2 nd class-->
+    <div class="under-nav-bar-module-1">
+      <!--<div class="col-md-1"></div>-->
+      <div class="col-md-12" >
+        <img src="assets/image/ucsc-c.jpg" height="340px" width="100%">
+      </div>
+
+
+    </div>
+
+    <div class="under-nav-bar-module-2">
+
+    </div>
+  </div>
+  <br><br>
+
+  <div class="container">
+    <h2><b>Site Announcements</b></h2>
+    <br><br>
+    <div class="row">
+      <!--<div class="col-md-4"></div>-->
+
+      <div *ngFor = "let post of posts">
+        <div class="col-md center">
+          <table class="table">
+            <thead>
+            <tr class="info">
+              <th scope="col">{{post.about}}</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="info">
+              <td>{{post.content}}</td>
+            </tr>
+            <tr class="info">
+              <td>{{post.date}} by {{post.post}}  </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!--<div class="col-md-4"></div>-->
+
+    </div>
+
+  </div>
 </div>
+</div>
+<footer class="footer-distributed">
+
+  <div class="footer-right">
+
+    <a href="https://www.facebook.com/UCSC.LK/"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/UCSC_LK"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-github"></i></a>
+
+  </div>
+
+  <div class="footer-left">
+    <p><font size="6"><b>Contact Us</b></font></p>>
+
+    <br>
+
+    <p>Address : University of Colombo School of Computing
+      UCSC Building Complex,
+      35 ,Reid Avenue, Colombo 7
+      SRI LANKA</p>
+    <p>Telephone Number : +94 -11- 2581245/ 7</p>
+
+    <h5><a href="http://ucsc.cmb.ac.lk/">Visit UCSC Website</a></h5>
+    <h5><a href="http://ugvle.ucsc.cmb.ac.lk/">Visit UGVLE</a></h5>
+  </div>
+
+</footer>
+
+
+

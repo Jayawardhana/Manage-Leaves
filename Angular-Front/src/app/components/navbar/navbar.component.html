@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,22 +8,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://ucsc.cmb.ac.lk/">UCSC</a>
+      <!--<a class="navbar-brand" href="http://ucsc.cmb.ac.lk/">UCSC</a>-->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About</a></li>
+        <li><a [routerLink]="['/']">Home <span class="sr-only">(current)</span></a></li>
+        <li><a [routerLink]="['/about']">About</a></li>
       </ul>
-      
+
       <ul class="nav navbar-nav navbar-right">
         <li *ngIf="!authService.loggedIn()"><a [routerLink]="['/login']">Login</a></li>
 
         <li *ngIf="authService.loggedIn()" class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hello {{user.getAuthName()}} <span class="caret"></span></a>
-        
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{user.getAuthName()}} <span class="caret"></span></a>
+
           <ul class="dropdown-menu">
             <li *ngIf="authService.isStaff() || authService.isAdmin() || authService.isHead()"><a [routerLink]="['/profile']">Profile</a></li>
             <li *ngIf="authService.isStaff() || authService.isAdmin()"><a [routerLink]="['/requestLeaves']">Request Leaves</a></li>
@@ -44,4 +44,45 @@
 </nav>
 
 
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+  <!--<a class="navbar-brand" href="#"></a>-->
+  <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="">-->
+    <!--<span class="navbar-toggler-icon"></span>-->
+  <!--</button>-->
 
+  <!--<div class="collapse navbar-collapse" id="navbarColor02">-->
+    <!--<ul class="navbar-nav mr-auto">-->
+      <!--<li class="nav-item active">-->
+        <!--<a class="nav-link" [routerLink]="['/']">Home <span class="sr-only">(current)</span></a>-->
+      <!--</li>-->
+
+        <!--<a class="nav-link" [routerLink]="['/about']">About</a>-->
+      <!--</li>-->
+    <!--</ul>-->
+    <!--&lt;!&ndash;<form class="form-inline my-2 my-lg-0">&ndash;&gt;-->
+      <!--&lt;!&ndash;<input class="form-control mr-sm-2" type="text" placeholder="Search">&ndash;&gt;-->
+      <!--&lt;!&ndash;<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>&ndash;&gt;-->
+    <!--&lt;!&ndash;</form>&ndash;&gt;-->
+    <!--<ul class="nav navbar-nav navbar-right">-->
+      <!--<li *ngIf="!authService.loggedIn()"><a [routerLink]="['/login']">Login</a></li>-->
+
+      <!--<li *ngIf="authService.loggedIn()" class="dropdown">-->
+        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{user.getAuthName()}} <span class="caret"></span></a>-->
+
+        <!--<ul class="dropdown-menu">-->
+          <!--<li *ngIf="authService.isStaff() || authService.isAdmin() || authService.isHead()"><a [routerLink]="['/profile']">Profile</a></li>-->
+          <!--<li *ngIf="authService.isStaff() || authService.isAdmin()"><a [routerLink]="['/requestLeaves']">Request Leaves</a></li>-->
+          <!--<li *ngIf="authService.isStaff() || authService.isAdmin()"><a [routerLink]="['/leaveHistory']">History of Leaves</a></li>-->
+          <!--<li *ngIf="authService.isAdmin()"><a [routerLink]="['/manageUsers']">Manage Staff</a></li>-->
+          <!--<li *ngIf="authService.isAdmin() || authService.isHead()"><a [routerLink]="['/addPost']">Add Post</a></li>-->
+          <!--<li *ngIf="authService.isAdmin()"><a [routerLink]="['/reportGenaration']">Report Genaration</a></li>-->
+          <!--<li *ngIf="authService.isHead()"><a [routerLink]="['/manageAdmin']">Manage Users</a></li>-->
+          <!--<li *ngIf="authService.isHead()"><a [routerLink]="['/manageLeaves']">Manage Leaves</a></li>-->
+          <!--<li *ngIf="authService.isHead()"><a [routerLink]="['/controlDates']">Control Dates</a></li>-->
+          <!--<li role="separator" class="divider"></li>-->
+          <!--<li><a href="#" (click)="logoutUser()">Logout</a></li>-->
+        <!--</ul>-->
+      <!--</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+<!--</nav>-->

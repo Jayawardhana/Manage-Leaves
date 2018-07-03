@@ -32,6 +32,7 @@ import { PostService } from './services/post.service';
 import { RequestService } from './services/request.service';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { AuthguardService } from './services/authguard.service';
+import { AboutComponent } from './components/about/about.component';
 
 
 
@@ -41,11 +42,12 @@ import { AuthguardService } from './services/authguard.service';
 
 
 const applicationRoutes:Routes = [
-    
+
     {path:'login',component:LoginComponent},
     {path:'manageUsers',component:ManageUsersComponent,canActivate: [AuthguardService], data: {roles: ['Admin']}},
     {path:'profile',component:ProfileComponent,canActivate: [AuthguardService], data: {roles: ['All']}},
-    {path:'home',component:HomeComponent},
+    {path:'',component:HomeComponent},
+    {path:'about',component:AboutComponent},
     {path:'requestLeaves',component:RequestLeavesComponent,canActivate: [AuthguardService], data: {roles: ['Admin&Staff']}},
     {path:'leaveHistory',component:LeaveHistoryComponent,canActivate: [AuthguardService], data: {roles: ['Admin&Staff']}},
     {path:'addPost',component:AddPostComponent,canActivate: [AuthguardService], data: {roles: ['Head&Admin']}},
@@ -57,7 +59,7 @@ const applicationRoutes:Routes = [
     {path:'updatePost',component:UpdatePostComponent,canActivate: [AuthguardService], data: {roles: ['Head&Admin']}},
     {path:'createPDF',component:CreatePDFComponent,canActivate: [AuthguardService], data: {roles: ['Admin']}},
     {path:'controlDates',component:ControlDatesComponent,canActivate: [AuthguardService], data: {roles: ['Head']}}
-   
+
 ];
 
 @NgModule({
@@ -79,8 +81,9 @@ const applicationRoutes:Routes = [
     UpdatePostComponent,
     CreatePDFComponent,
     ControlDatesComponent,
-    
- 
+    AboutComponent,
+
+
   ],
   imports: [
     BrowserModule,
@@ -89,7 +92,7 @@ const applicationRoutes:Routes = [
     BsDatepickerModule.forRoot(),
     RouterModule.forRoot(applicationRoutes),
     FlashMessagesModule
-    
+
   ],
   providers: [AuthService, RequestService, PostService, FlashMessagesService, AuthguardService],
   bootstrap: [AppComponent]

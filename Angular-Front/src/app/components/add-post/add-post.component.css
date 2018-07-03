@@ -13,3 +13,12 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+.all {
+  background-image: url(../../../assets/image/blue.jpg);
+  /*padding: 20px;*/
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-size: cover;
+
+}
